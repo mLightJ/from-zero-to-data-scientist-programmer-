@@ -1,0 +1,42 @@
+Step 1: Goal
+Step 2: Inputs
+Step 3: Output
+Step 4: Logic
+Step 5: Flow
+
+
+
+Step 1 — Goal
+    The program should collect a user’s personal details and display a profile summary.
+
+Step 2 — Inputs
+The program will ask the user to enter:
+    Name → text
+    Age → number
+    Favorite programming language → text
+
+Step 3 — Output
+    The program will display a formatted profile summary showing:
+    Name
+    Age
+    Favorite language
+
+Step 4 — Logic
+    Ask the user to enter their name.
+    Ask the user to enter their age.
+    Convert the age from text to an integer.
+    Ask for favorite programming language.
+    Store all inputs in variables.
+    Display the results using formatted print statements.
+
+Step 5 — Flow
+    Prompt user for inputs.
+    Convert age to integer.
+    Print the profile summary.
+
+Why This Refinement Matters
+    Notice the improvement:
+    Your Step 4 is now:
+
+👉 Detailed and sequential
+This is important because later in data science you’ll be solving complex problems where order matters.
