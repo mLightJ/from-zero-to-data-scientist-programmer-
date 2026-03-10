@@ -2,7 +2,7 @@
 
 Welcome to my learning repository.
 
-This repo documents my step-by-step journey from learning Python programming to becoming a Data Scientist.
+This repo documents my step-by-step journey from learning Python programming to becoming a Data Scientist/Analyst.
 
 ## 🚀 Why This Repository Exists
 
