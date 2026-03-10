@@ -33,10 +33,3 @@ Step 5 — Flow
     Prompt user for inputs.
     Convert age to integer.
     Print the profile summary.
-
-Why This Refinement Matters
-    Notice the improvement:
-    Your Step 4 is now:
-
-👉 Detailed and sequential
-This is important because later in data science you’ll be solving complex problems where order matters.
