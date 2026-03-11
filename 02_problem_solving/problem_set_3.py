@@ -6,7 +6,7 @@
 5 Dictionary Analyzer
 6 Frequency Counting
 7 Word Frequency Counter
-
+'''
 
 #1 Prime Number Checker
 num = int(input("Enter a number: "))
@@ -133,16 +133,15 @@ for word, count in word_frequency.items():
     print(f"'{word}' appears {count} times")
     
     
-    
+'''    
 Mini Project — Text Analyzer
-
 Create a program that asks the user for a sentence and outputs:
 
 1 Total words
 2 Unique words
 3 Most common word
 4 Frequency of every word
-
+'''
 
 sentence = input("Enter a sentence: ")
 words = sentence.split()
@@ -160,7 +159,7 @@ for word, count in word_frequency.items():
     print(f"'{word}': {count}")
     
     
-'''
+
 # List Comprehensions, Counter and Lambda Functions
 
 from collections import Counter
@@ -169,9 +168,9 @@ num = [3,8,15,2,9,12,7,6]
 data = [1,2,2,3,3,3,4,4,4,4]
 dec = [10,4,7,2,15]
 
-no_greater_than_7 = [x for x in num if x > 7]
-squared_numbers = [x ** 2 for x in num]
-count = Counter(data)
+no_greater_than_7 = [x for x in num if x > 7] # List comprehension to filter numbers greater than 7
+squared_numbers = [x ** 2 for x in num] # List comprehension to square each number in the list
+count = Counter(data) # Using Counter to count the frequency of each element in the data list
 
 dec.sort(key=lambda x: x, reverse=True) # Sort in descending order
 
