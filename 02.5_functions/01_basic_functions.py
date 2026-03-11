@@ -4,6 +4,7 @@
     return values
     reusable logic
     modular programming
+'''
 
 #1 Greet user
 
@@ -35,7 +36,7 @@ result = analyze_numbers(3, 5)
 print(f"Sum: {result[0]}")
 print(f"Difference: {result[1]}")
 print(f"Product: {result[2]}")
-'''
+
 
 #4 list analyzer
 '''
