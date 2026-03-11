@@ -160,7 +160,7 @@ for word, count in word_frequency.items():
     
     
 
-# List Comprehensions, Counter and Lambda Functions
+# List Comprehensions, Counter and Lambda Function
 
 from collections import Counter
 
