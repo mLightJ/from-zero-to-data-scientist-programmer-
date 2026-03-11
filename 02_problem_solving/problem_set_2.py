@@ -6,29 +6,22 @@
     Store result in a variable
     Print clean output
 '''
-
-
-'''number = int(input("Enter a number N: "))
-total_sum = sum(range(1, number + 1))
-print(f"The sum of all numbers from 1 to {number} is: {total_sum}")
-'''
-'''
 number = int(input("Enter a number N: "))
 total_sum = 0
 for num in range(1, number + 1):
     total_sum += num
 print(f"The sum of all numbers from 1 to {number} is: {total_sum}")
-'''
+
 #====================================================
 
 #====================================================
 #Multiplication Table Generator
-'''Ask the user for a number, Print it's multiplication table from 1 - 10
+#Ask the user for a number, Print it's multiplication table from 1 - 10
 multiplication_table_number = int(input("Enter a number to see its multiplication table: "))
 for i in range(1, 11):
     print(f"{multiplication_table_number} x {i} = {multiplication_table_number * i}")
 
-'''
+
 #====================================================
 
 #====================================================
@@ -38,7 +31,6 @@ for i in range(1, 11):
     User has 3 attempts
     If correct → print "Access Granted"
     If wrong 3 times → print "Access Denied"
-    
 '''
 password = "python123"
 user_attempts = 3
