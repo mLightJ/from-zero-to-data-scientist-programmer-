@@ -1,0 +1,31 @@
+name,age,course,grade
+Alice,30,Data Science,
+Brian,24,Data Science,69.62
+Clara,30,Computer Science,92.34
+David,,Data Science,71.05
+Ella,22,Computer Science,95.57
+Frank,26,Computer Science,
+,22,Statistics,76.97
+,24,Computer Science,82.31
+Ivy,23,Statistics,60.37
+Jack,22,Data Science,99.23
+Karen,,Statistics,74.5
+Leo,22,Data Science,62.6
+Mona,26,Information Systems,
+ Nathan ,28,Statistics,86.63
+Olivia,,Computer Science,74.49
+ Paul ,,Computer Science,83.7
+Queen,24,Data Science,
+,18,Statistics,91.06
+Sophia,21,Computer Science,96.34
+Tom,,Data Science,82.28
+Ursula,23,Data Science,81.69
+Victor,24,Statistics,
+Wendy,30,Information Systems,67.14
+Xavier,29,Statistics,88.24
+,23,Data Science,70.44
+Zane,23,Statistics,78.13
+Aaron,23,Computer Science,
+Bella,26,Data Science,88.24
+Caleb,27,Computer Science,93.74
+Diana,28,Data Science,81.73
