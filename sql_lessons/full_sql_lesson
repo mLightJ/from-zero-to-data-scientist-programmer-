@@ -1,0 +1,83 @@
+-- Get all students
+SELECT * FROM students;
+
+-- Get only name and program
+SELECT name, program
+FROM students;
+
+-- Get only ICT students
+SELECT name, program
+FROM students
+WHERE program = 'ICT';
+
+-- Get ICT students sorted by age
+SELECT name, age, program
+FROM students
+WHERE program = 'ICT'
+ORDER BY age DESC;
+
+
+
+-- AND — both conditions must be true
+SELECT name, age, program
+FROM students
+WHERE program = 'ICT'
+AND age > 20;
+
+-- OR — at least one condition must be true
+SELECT name, age, program
+FROM students
+WHERE program = 'ICT'
+OR program = 'Business';
+
+-- NOT — exclude a condition
+SELECT name, program
+FROM students
+WHERE NOT program = 'Nursing';
+
+
+
+
+-- Names that start with 'A'
+SELECT name FROM students
+WHERE name LIKE 'A%';
+
+-- Names that end with 'e'
+SELECT name FROM students
+WHERE name LIKE '%e';
+
+-- Names that contain 'ama' anywhere
+SELECT name FROM students
+WHERE name LIKE '%ama%';
+
+
+SELECT COUNT(*)          FROM students;  -- total number of rows
+SELECT COUNT(name)       FROM students;  -- count of non-null names
+SELECT SUM(age)          FROM students;  -- total of all ages
+SELECT AVG(age)          FROM students;  -- average age
+SELECT MAX(age)          FROM students;  -- highest age
+SELECT MIN(age)          FROM students;  -- lowest age
+
+
+
+SELECT 
+    program,
+    COUNT(*)        AS total_students,
+    AVG(age)        AS average_age,
+    MAX(age)        AS oldest_student
+FROM students
+WHERE age > 18
+GROUP BY program
+HAVING COUNT(*) > 10
+ORDER BY average_age DESC;
+
+
+
+SELECT name, program
+FROM students
+WHERE program IN (
+    SELECT program
+    FROM students
+    GROUP BY program
+    HAVING COUNT(*) > 30
+);
