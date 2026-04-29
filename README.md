@@ -20,6 +20,7 @@ I created this repository to:
 * Data Structures
 * Data Analysis (Pandas & NumPy)
 * Data Visualization
+* SQL
 * Real-world Data Projects
 
 ## 📅 Journey Started
