@@ -1,0 +1,26 @@
+To: The Headmaster 
+From: Data Analyst 
+Re: Student Performance Analysis — Key Findings & Recommendations
+
+Our analysis of 1,000 student records reveals that overall performance is above average with a school-wide 
+mean score of approximately 77 out of 100. However three factors are significantly influencing which students 
+fall behind.
+
+The single biggest driver of underperformance is family income. Students on free or reduced lunch score 7.66 
+points below their peers on average — a gap confirmed statistically to be real and not random. This suggests 
+that students from lower income households need targeted support.
+
+The most actionable finding is test preparation. Students who completed a preparation course scored 8 points 
+higher on average. Since the school can directly offer and even subsidize this intervention, we recommend making 
+test preparation available and free to all students — prioritizing those from lower income backgrounds.
+
+Finally parental education shows a clear pattern — students whose parents have higher education perform better, 
+likely due to stronger home support. We recommend introducing a parent engagement program to bring families into 
+the learning process regardless of their own educational background.
+
+Summary of recommendations:
+
+Offer free test preparation to all students
+Create a targeted support program for students on free or reduced lunch
+Launch a parent engagement initiative to strengthen home learning support
+Monitor progress of at-risk students termly to track improvement
